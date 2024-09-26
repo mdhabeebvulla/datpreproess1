@@ -9,7 +9,7 @@ Original file is located at
 
 #importing libraries
 import pandas as pd
-
+#reading data frame
 df = pd.read_csv('iris.data',names=['sl','sw','pl','pw','species'])
 
 df.head()  #will display top 5 samples
